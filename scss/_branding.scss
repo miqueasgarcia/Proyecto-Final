@@ -1,0 +1,45 @@
+body {
+    font-family: "Montserrat", sans-serif;
+    color: #333;
+  }
+  
+  .navbar {
+    background-color: #2c2c54;
+  } 
+  
+  .branding-hero {
+    background: linear-gradient(135deg, #7847ff, #dd30e0);
+    text-align: center;
+  }
+  
+  .branding-content {
+    h2 {
+      color: #2c3e50;
+    }
+  
+    p, .list-group-item {
+      color: #555;
+    }
+  
+    ul {
+      background-color: #f5f5f5;
+      border-radius: 10px;
+    }
+  }
+  
+  .branding-more-info {
+    background-color: #1abc9c;
+    button {
+      color: #fff;
+      background-color: #3c0141;
+      &:hover {
+        background-color: #bf0697;
+      }
+    }
+  }
+  
+  .footer-section {
+    background-color: #2c2c54;
+    color: #fff;
+  }
+  

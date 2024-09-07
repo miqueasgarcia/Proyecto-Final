@@ -1,0 +1,88 @@
+
+
+$primary-text-color: #8f05cf;
+$steel-gray: #555;
+$hover-bg-color: #9521cb;
+$footer-bg-color: $primary-text-color;
+$white: #fff;
+
+@import "./branding";
+@import "./contacto";
+@import "./marketing";
+@import "./desarrollo";
+
+* {
+  --primary-color: $primary-color;
+}
+
+
+body {
+  color: #555;
+  font-family: "Montserrat", sans-serif;
+}
+
+.navbar-brand {
+  font-size: 30px;
+}
+
+.nav-link {
+  font-size: 18px !important;
+  font-weight: 500;
+}
+
+.head-section {
+  background-image: linear-gradient(180deg, #c4b6fd, #dc93fc);
+}
+
+.navbar-brand
+{
+  color: white !important;
+}
+
+.btn-primary {
+  background-color: #380a4b !important;
+}
+
+.nav-link:hover {
+  color: $primary-text-color;
+}
+
+p {
+  font-size: 18px;
+}
+
+.btn-primary:hover {
+  background-color: #9521cb !important;
+}
+
+.blue-bg {
+  background-color: $primary-text-color;
+  color: $white;
+}
+
+.ionicons {
+  color: $primary-text-color;
+  background-color: #f2f2f2;
+  padding: 10px;
+  height: 30px;
+  width: 30px;
+  margin-bottom: 12px;
+}
+
+.nav-tabs {
+  border: none;
+}
+
+.nav-tabs .active {
+  background-color: $primary-text-color !important;
+  border: none;
+  color: $white !important;
+}
+
+.footer-section {
+  background-color: $footer-bg-color !important;
+  border: none;
+  color: $white !important;
+}
+
+
